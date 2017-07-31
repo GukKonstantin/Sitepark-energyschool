@@ -1,0 +1,16 @@
+CREATE TABLE `news` (
+  `id` int(7) NOT NULL AUTO_INCREMENT,
+  `text` text NOT NULL,
+  `rows` int(5) NOT NULL DEFAULT '7',
+  `pic` varchar(200) DEFAULT NULL,
+  `user_id` int(7) NOT NULL,
+  `date_reg` date NOT NULL,
+  `time_reg` time NOT NULL,
+  `enable` int(1) NOT NULL DEFAULT '0',
+  `city_id` int(7) NOT NULL DEFAULT '0',
+  `school_id` int(7) NOT NULL DEFAULT '0',
+  `date` date NOT NULL,
+  `date_sort` date NOT NULL,
+  `number_sort` int(5) NOT NULL DEFAULT '10',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=121 DEFAULT CHARSET=utf8

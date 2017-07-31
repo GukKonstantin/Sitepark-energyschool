@@ -1,0 +1,18 @@
+CREATE TABLE `blocks` (
+  `id` int(7) NOT NULL AUTO_INCREMENT,
+  `theme_id` int(7) NOT NULL,
+  `text_id` int(7) NOT NULL DEFAULT '0',
+  `task_id` int(10) NOT NULL DEFAULT '0',
+  `pic` varchar(200) DEFAULT NULL,
+  `enable` int(1) NOT NULL DEFAULT '1',
+  `ismust` int(1) NOT NULL DEFAULT '0',
+  `type_id` int(7) NOT NULL DEFAULT '0',
+  `res` varchar(200) DEFAULT NULL,
+  `file` varchar(200) DEFAULT NULL,
+  `countquestions` int(5) NOT NULL DEFAULT '10',
+  `rating` int(5) NOT NULL DEFAULT '0',
+  `sort` int(5) NOT NULL DEFAULT '0',
+  `name` varchar(200) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `random` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=269 DEFAULT CHARSET=utf8

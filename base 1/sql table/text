@@ -1,0 +1,9 @@
+CREATE TABLE `text` (
+  `id` int(7) NOT NULL AUTO_INCREMENT,
+  `theme_id` int(7) NOT NULL,
+  `name` varchar(200) NOT NULL,
+  `text` text NOT NULL,
+  `rows` int(5) NOT NULL DEFAULT '4',
+  `enable` int(1) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=utf8

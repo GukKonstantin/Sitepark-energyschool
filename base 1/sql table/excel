@@ -1,0 +1,8 @@
+CREATE TABLE `excel` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `file` varchar(200) NOT NULL,
+  `comment` varchar(200) NOT NULL,
+  `date` date NOT NULL,
+  `time` time NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=81 DEFAULT CHARSET=utf8

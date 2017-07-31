@@ -1,0 +1,15 @@
+CREATE TABLE `a_old_actions` (
+  `id` int(7) NOT NULL AUTO_INCREMENT,
+  `text` text NOT NULL,
+  `name` varchar(300) NOT NULL,
+  `type` int(1) NOT NULL COMMENT '1-sch,2-cl,3-us',
+  `to_id` int(7) NOT NULL DEFAULT '0',
+  `data` date NOT NULL,
+  `time` time NOT NULL,
+  `data_action` date NOT NULL,
+  `owner_id` int(7) NOT NULL,
+  `school_id` int(7) NOT NULL DEFAULT '0',
+  `department_id` int(7) NOT NULL DEFAULT '0',
+  `user_id` int(7) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8

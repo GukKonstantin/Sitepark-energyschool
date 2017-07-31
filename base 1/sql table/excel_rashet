@@ -1,0 +1,7 @@
+CREATE TABLE `excel_rashet` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `whouser_id` int(10) NOT NULL,
+  `step` int(10) NOT NULL,
+  `arr` text NOT NULL COMMENT 'user_id with separator for step rashet. For excel_cashe',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=94 DEFAULT CHARSET=utf8

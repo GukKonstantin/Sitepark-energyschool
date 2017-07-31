@@ -1,0 +1,15 @@
+CREATE TABLE `logs` (
+  `id` int(7) NOT NULL AUTO_INCREMENT,
+  `user_id` int(7) NOT NULL,
+  `department_id` int(7) NOT NULL DEFAULT '0',
+  `theme_id` int(7) NOT NULL DEFAULT '0',
+  `block_id` int(7) NOT NULL DEFAULT '0',
+  `data` date NOT NULL,
+  `time` time NOT NULL,
+  `isreg` int(1) NOT NULL DEFAULT '0',
+  `islogin` int(1) NOT NULL DEFAULT '0',
+  `ischangeprofil` int(1) NOT NULL DEFAULT '0',
+  `isreport` int(1) NOT NULL DEFAULT '0',
+  `islogout` int(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=256076 DEFAULT CHARSET=utf8

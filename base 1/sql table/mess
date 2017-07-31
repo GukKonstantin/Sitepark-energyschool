@@ -1,0 +1,12 @@
+CREATE TABLE `mess` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_from` int(11) NOT NULL,
+  `user_to` int(11) NOT NULL,
+  `depid` int(11) NOT NULL,
+  `title` varchar(200) NOT NULL,
+  `text` text NOT NULL,
+  `date` date NOT NULL,
+  `time` time NOT NULL,
+  `isread` int(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=195 DEFAULT CHARSET=utf8

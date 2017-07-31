@@ -1,0 +1,10 @@
+CREATE TABLE `study` (
+  `id` int(7) NOT NULL AUTO_INCREMENT,
+  `user_id` int(7) NOT NULL,
+  `block_id` int(7) NOT NULL,
+  `date_first` date NOT NULL,
+  `time_first` time NOT NULL,
+  `rating` int(7) NOT NULL DEFAULT '0',
+  `theme_report` int(5) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=89441 DEFAULT CHARSET=utf8

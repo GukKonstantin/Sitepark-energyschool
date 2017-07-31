@@ -1,0 +1,8 @@
+CREATE TABLE `dep_themes` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `themes_id` int(10) NOT NULL,
+  `themes_name` varchar(200) NOT NULL,
+  `department_id` int(10) NOT NULL,
+  `date_start` date NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=773 DEFAULT CHARSET=utf8

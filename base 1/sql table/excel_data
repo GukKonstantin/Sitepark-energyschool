@@ -1,0 +1,10 @@
+CREATE TABLE `excel_data` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `minidate` varchar(200) NOT NULL,
+  `number` int(10) NOT NULL,
+  `name` varchar(200) NOT NULL,
+  `step` int(10) NOT NULL,
+  `info` text NOT NULL,
+  `countline` int(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8

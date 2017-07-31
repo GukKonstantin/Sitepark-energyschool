@@ -1,0 +1,15 @@
+CREATE TABLE `block_types` (
+  `id` int(7) NOT NULL AUTO_INCREMENT,
+  `name` varchar(200) NOT NULL,
+  `sort` int(5) NOT NULL,
+  `enable` int(1) NOT NULL DEFAULT '0',
+  `pic` varchar(200) DEFAULT NULL,
+  `iscase` int(1) NOT NULL DEFAULT '0',
+  `istext` int(1) NOT NULL DEFAULT '1',
+  `istask` int(1) NOT NULL DEFAULT '0',
+  `isurl` int(1) NOT NULL DEFAULT '0',
+  `isfilechooser` int(1) NOT NULL DEFAULT '0',
+  `istest` int(1) NOT NULL DEFAULT '0',
+  `name_logs` varchar(200) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8

@@ -1,0 +1,6 @@
+CREATE TABLE `schools` (
+  `id` int(7) NOT NULL AUTO_INCREMENT,
+  `name` varchar(200) NOT NULL,
+  `city_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=119 DEFAULT CHARSET=utf8

@@ -1,0 +1,8 @@
+CREATE TABLE `restask` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) NOT NULL,
+  `task_id` int(10) NOT NULL,
+  `answer` varchar(100) NOT NULL,
+  `rating` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10468 DEFAULT CHARSET=utf8

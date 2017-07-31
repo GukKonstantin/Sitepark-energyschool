@@ -1,0 +1,9 @@
+CREATE TABLE `extra_link` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `table` varchar(100) NOT NULL,
+  `table_id` int(10) NOT NULL,
+  `type` int(1) NOT NULL COMMENT '1-photo, 2-file, 3-id',
+  `url` varchar(200) DEFAULT NULL,
+  `res_id` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2031 DEFAULT CHARSET=utf8

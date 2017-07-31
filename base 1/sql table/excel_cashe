@@ -1,0 +1,15 @@
+CREATE TABLE `excel_cashe` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `foruser_id` int(10) NOT NULL,
+  `info1` text NOT NULL,
+  `info2` text NOT NULL,
+  `info3` text NOT NULL,
+  `info4` text NOT NULL,
+  `israshet_allratings` int(1) NOT NULL DEFAULT '0',
+  `israshet_allmonitorings` int(1) NOT NULL DEFAULT '0',
+  `israshet_allrestests` int(1) NOT NULL DEFAULT '0',
+  `israshet_allrestasks` int(1) NOT NULL DEFAULT '0',
+  `israshet_qteacher` int(1) NOT NULL DEFAULT '0',
+  `israshet_qstudent` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1482 DEFAULT CHARSET=utf8

@@ -1,0 +1,6 @@
+CREATE TABLE `readmess` (
+  `id` int(7) NOT NULL AUTO_INCREMENT,
+  `user_id` int(7) NOT NULL,
+  `mess_id` int(7) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8

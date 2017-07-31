@@ -1,0 +1,12 @@
+CREATE TABLE `tasks` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `theme_id` int(10) NOT NULL DEFAULT '0',
+  `name` varchar(200) NOT NULL,
+  `text` text,
+  `img` varchar(200) DEFAULT NULL,
+  `rows` int(10) NOT NULL DEFAULT '10',
+  `enable` int(1) NOT NULL DEFAULT '1',
+  `rating` int(5) NOT NULL DEFAULT '0',
+  `answer` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=81 DEFAULT CHARSET=utf8

@@ -1,0 +1,23 @@
+CREATE TABLE `s_curators` (
+  `id` int(100) NOT NULL AUTO_INCREMENT,
+  `code` varchar(50) NOT NULL,
+  `number` varchar(50) NOT NULL,
+  `report` varchar(50) NOT NULL,
+  `curator` varchar(50) NOT NULL DEFAULT '',
+  `city` varchar(50) NOT NULL DEFAULT '',
+  `school` varchar(50) NOT NULL DEFAULT '',
+  `number_energy_measures_week` varchar(50) NOT NULL DEFAULT '',
+  `number_activities` varchar(50) NOT NULL DEFAULT '',
+  `total_activities` varchar(50) NOT NULL DEFAULT '',
+  `number_people_involved` varchar(50) NOT NULL DEFAULT '',
+  `investment_volume` varchar(50) NOT NULL DEFAULT '',
+  `established_saving_electricity` varchar(50) NOT NULL DEFAULT '',
+  `established_saving_heat` varchar(50) NOT NULL DEFAULT '',
+  `established_saving_gas` varchar(50) NOT NULL DEFAULT '',
+  `established_saving_hot_water` varchar(50) NOT NULL DEFAULT '',
+  `established_saving_cold_water` varchar(50) NOT NULL DEFAULT '',
+  `established_saving_money` varchar(50) NOT NULL DEFAULT '',
+  `reducing_emissions` varchar(50) NOT NULL DEFAULT '',
+  `text` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=203 DEFAULT CHARSET=utf8

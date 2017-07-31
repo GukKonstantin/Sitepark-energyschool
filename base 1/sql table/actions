@@ -1,0 +1,12 @@
+CREATE TABLE `actions` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(200) NOT NULL,
+  `date` date NOT NULL,
+  `enable` int(1) NOT NULL DEFAULT '0',
+  `type` int(5) NOT NULL,
+  `text` text NOT NULL,
+  `pic` varchar(200) DEFAULT NULL,
+  `user_owner` int(10) NOT NULL,
+  `school_id` int(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8

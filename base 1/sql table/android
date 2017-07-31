@@ -1,0 +1,10 @@
+CREATE TABLE `android` (
+  `id` int(7) NOT NULL AUTO_INCREMENT,
+  `code` varchar(200) NOT NULL,
+  `code1` varchar(200) NOT NULL,
+  `model` varchar(200) NOT NULL,
+  `text` text NOT NULL,
+  `date` date DEFAULT NULL,
+  `time` time DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8

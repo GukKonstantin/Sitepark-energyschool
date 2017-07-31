@@ -1,0 +1,11 @@
+CREATE TABLE `department` (
+  `id` int(7) NOT NULL AUTO_INCREMENT,
+  `name` varchar(200) NOT NULL,
+  `city_id` int(7) NOT NULL DEFAULT '0',
+  `school_id` int(7) NOT NULL DEFAULT '0',
+  `teacher_id` int(7) NOT NULL DEFAULT '0',
+  `date_first_theme` date DEFAULT NULL,
+  `number_actual_theme` int(5) NOT NULL DEFAULT '0',
+  `enable` int(1) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=86 DEFAULT CHARSET=utf8
